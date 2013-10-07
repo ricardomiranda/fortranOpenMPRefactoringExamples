@@ -3,8 +3,6 @@ This program compares the performance of Higher-order functions and First-order 
  - export OMP_NUM_THREADS=4
  - f95 -xopenmp=parallel -o OMPR ModuleopenMPRefactor.f95 MainOpenMPRefactor.f95 
  - ./HOF
- - gprof HOF gmon.out>output.txt
- - cat output.txt 
 
 ---------
 
